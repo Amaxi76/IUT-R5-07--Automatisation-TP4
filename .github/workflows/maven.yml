@@ -16,7 +16,8 @@ on:
 
 jobs:
   build:
-
+   # ML :
+    permissions : write-all
     runs-on: ubuntu-latest
 
     steps:
@@ -43,8 +44,7 @@ jobs:
         git commit -m "exécution de maven"
         git push origin main
 
-    # ML :
-    permissions : write-all
+   
     
 
 

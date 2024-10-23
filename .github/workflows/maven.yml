@@ -45,7 +45,7 @@ jobs:
         git add -A
         git status
         git commit -m "exécution de maven"
-        git push
+        git push origin main
 
     # ML :
     permissions : write-all

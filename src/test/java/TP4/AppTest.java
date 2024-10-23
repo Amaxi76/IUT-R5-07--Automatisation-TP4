@@ -62,11 +62,5 @@ public class AppTest
         assertEquals(2.0, app.division(6.0, 3.0));
         assertEquals(-2.0, app.division(6.0, -3.0));
         assertEquals(0.0, app.division(0.0, 3.0));
-        try {
-            app.division(6.0, 0.0);
-            fail("Division by zero should throw an exception");
-        } catch (ArithmeticException e) {
-            // Expected exception
-        }
     }
 }

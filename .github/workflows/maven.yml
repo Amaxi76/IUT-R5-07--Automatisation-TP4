@@ -40,8 +40,8 @@ jobs:
         
     - name: ML commmit et push
       run: |
-        git config --global user.name <Amaxi76>
-        git config --global user.email <maximilien.lesterlin@etu.univ-lehavre.fr>
+        git config --global user.name "Amaxi76"
+        git config --global user.email "maximilien.lesterlin@etu.univ-lehavre.fr"
         git add -A
         git status
         git commit -m "exécution de maven"
